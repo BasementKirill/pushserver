@@ -1,9 +1,9 @@
 import webPush from 'web-push';
 
 // *** DEINE KEYS HIER EINFÜGEN ***
-const VAPID_PUBLIC_KEY = 'BEtM3yYdduzemTmftBOqLVOrh89WPSrcwc8zrZbvKpZqVv4-GkYokrSAmKgWIkSyMRQah3P7JYJ2_RotR3H8MDQ';
-const VAPID_PRIVATE_KEY = 'DEIN_PRIVATE_KEY_HIER'; // geheim!
-const VAPID_EMAIL = 'deine@email.com';
+const VAPID_PUBLIC_KEY = 'BBBAR-W3O4VCHeGx0sDJGMwcvJrHIEkY1UBkfF7i2cdGPJXmb52hVo6DarYTx0PpobX462W6zLXsuXIlfYF2JO0';
+const VAPID_PRIVATE_KEY = 'Lg9P9PFr4PQopXrLNXCcEPGJKXP8vpax4vVi7_rRDL4';
+const VAPID_EMAIL = 'PfeifferLukas@dv-schulen.de';
 
 webPush.setVapidDetails(`mailto:${VAPID_EMAIL}`, VAPID_PUBLIC_KEY, VAPID_PRIVATE_KEY);
 
